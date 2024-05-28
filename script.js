@@ -28,10 +28,10 @@ fetch("players.json")
       }
       // Check for Developer status
       if(player.developer == true) {
-
+         console.log("dev");
       }
       else {
-
+         console.log("");
       }
       out += `
          <tr>
