@@ -1,6 +1,8 @@
 const leaderboard = document.getElementById("leaderboard");
-const birdLogo = new Image("logo.png");
-const devLogo = new Image("devLogo.png");
+const birdLogo = new Image(100, 100);
+birdLogo.src = "birdLogo.png";
+const devLogo = new Image(100, 100);
+
 const dropdownMenu = document.getElementById("dropdownMenu");
 
 
