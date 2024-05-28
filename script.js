@@ -1,7 +1,4 @@
 const leaderboard = document.getElementById("leaderboard");
-const birdLogo = new Image(100, 100);
-birdLogo.src = "birdLogo.png";
-const devLogo = new Image(100, 100);
 
 const dropdownMenu = document.getElementById("dropdownMenu");
 
@@ -18,29 +15,35 @@ fetch("players.json")
    let devIcon= "";
 
    for(let player of players){
-      // Check for Early Participant status
-      if(player.earlyP == true) {
-         let birdLogo = "birdLogo.png";
 
-      }
-      else {
-         let birdLogo = "";
-      }
-      // Check for Developer status
-      if(player.developer == true) {
-
-      }
-      else {
-
-      }
       out += `
          <tr>
             <td class="table-text">${rank}</td>
-            <td class="table-text"><img id="birdLogo" src="${birdLogo}">${player.name}</td>
-            <td class="table-text">${player.grade}</td>
-            <td class="table-text">${player.points}</td>
-         </tr>
-      `;
+            <td class="table-text">`;
+
+      // Check for Early Participant status
+      if(player.earlyP == true) {
+         out += `<img class="bird-logo" src="birdLogo.png">`;
+
+      }
+      else {
+         out += "";
+      }
+      // Check for Developer status
+      
+      if(player.developer == true) {
+         out += `<img class="dev-logo" src="picOfMe.jpg">`;
+      }
+      else {
+         out += "";
+      }
+      
+      
+      out += `${player.name}</td>`
+      out += `<td class="table-text">${player.grade}</td>
+      <td class="table-text">${player.points}</td>`
+
+
       rank++;
    }
  
