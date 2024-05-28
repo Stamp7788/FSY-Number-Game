@@ -20,22 +20,23 @@ fetch("players.json")
    for(let player of players){
       // Check for Early Participant status
       if(player.earlyP == true) {
-         earlyIcon = birdLogo;
+         let birdLogo = "birdLogo.png";
+
       }
       else {
-         earlyIcon = "";
+         let birdLogo = "";
       }
       // Check for Developer status
       if(player.developer == true) {
-         devIcon = devLogo;
+
       }
       else {
-         devIcon = "";
+
       }
       out += `
          <tr>
             <td class="table-text">${rank}</td>
-            <td class="table-text">${devIcon}${earlyIcon}${player.name}</td>
+            <td class="table-text"><img id="birdLogo" src="${birdLogo}">${player.name}</td>
             <td class="table-text">${player.grade}</td>
             <td class="table-text">${player.points}</td>
          </tr>
