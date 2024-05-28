@@ -2,37 +2,65 @@
     {
        "name": "Gabe Olsen",
        "earlyP": true,
+       "developer": true,
        "grade": "Grad",
-       "donator": true,
+       "donator": false,
        "points": "0"
     },
     {
         "name": "Hallie Day",
         "earlyP": true,
+        "developer": false,
         "grade": "Grad",
-        "donator": true,
+        "donator": false,
         "points": "0"
     },
     {
         "name": "Tera Lewis",
         "earlyP": true,
+        "developer": false,
         "grade": "Grad",
-        "donator": true,
+        "donator": false,
         "points": "0"
     },
     {
-        "name": "",
+        "name": "Liberty Graves",
         "earlyP": true,
-        "grade": "Grad",
-        "donator": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
         "points": "0"
     },
     {
-        "name": "Tera Lewis",
+        "name": "Jonathan Hill",
         "earlyP": true,
-        "grade": "Grad",
-        "donator": true,
+        "developer": true,
+        "grade": "12th",
+        "donator": false,
         "points": "0"
     },
-    
- ]
+    {
+        "name": "Tucker Smith",
+        "earlyP": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
+        "points": "0"
+    },
+    {
+        "name": "Kyla Puckett",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0"
+    },
+    {
+        "name": "Ryan Eppich",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0"
+    }
+]
