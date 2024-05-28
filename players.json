@@ -42,7 +42,8 @@
         "grade": "12th",
         "donator": false,
         "points": "0",
-        "phoneNumber": "9312843686"
+        "phoneNumber": "9312843686",
+        "menace": true
     },
     {
         "name": "Tucker Smith",

@@ -18,7 +18,7 @@ fetch("players.json")
 
       // Check for Early Participant status
       if(player.earlyP == true) {
-         out += `<img class="bird-logo" src="birdLogo.png" draggable="false">`;
+         out += `<img class="name-icon" src="birdLogo.png" draggable="false">`;
       }
       else {
          out += "";
@@ -26,7 +26,15 @@ fetch("players.json")
 
       // Check for Developer status
       if(player.developer == true) {
-         out += `<img class="dev-logo" src="TarynEnraged.png" draggable="false">`;
+         out += `<img class="name-icon" src="TarynEnraged.png" draggable="false">`;
+      }
+      else {
+         out += "";
+      }
+
+      // Check for M e n a c e status
+      if(player.menace == true) {
+         out += `<img class="name-icon" src="wuddleFace.png" draggable="false">`;
       }
       else {
          out += "";

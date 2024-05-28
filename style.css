@@ -70,12 +70,7 @@ table, th, td {
     margin: 5px;
 }
 
-.bird-logo {
-    width: 20px;
-    padding: 0;
-    margin: 0;
-}
-.dev-logo {
+.name-icon {
     width: 20px;
     padding: 0;
     margin: 0;
