@@ -11,39 +11,30 @@ fetch("players.json")
 .then(function(players){
    let out = "";
    let rank = 1;
-   let earlyIcon = "";
-   let devIcon= "";
 
    for(let player of players){
 
-      out += `
-         <tr>
-            <td class="table-text">${rank}</td>
-            <td class="table-text">`;
+      out += `<tr><td class="table-text">${rank}</td><td class="table-text">`;
 
       // Check for Early Participant status
       if(player.earlyP == true) {
          out += `<img class="bird-logo" src="birdLogo.png">`;
+      }
+      else {
+         out += "";
+      }
 
-      }
-      else {
-         out += "";
-      }
       // Check for Developer status
-      
       if(player.developer == true) {
-         out += `<img class="dev-logo" src="picOfMe.jpg">`;
+         out += `<img class="dev-logo" src="TarynEnraged.png">`;
       }
       else {
          out += "";
       }
-      
-      
+
       out += `${player.name}</td>`
       out += `<td class="table-text">${player.grade}</td>
       <td class="table-text">${player.points}</td>`
-
-
       rank++;
    }
  
