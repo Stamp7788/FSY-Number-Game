@@ -34,10 +34,10 @@ fetch("players.json")
       }
       out += `
          <tr>
-            <td>${rank}</td>
-            <td>${devIcon}${earlyIcon}${player.name}</td>
-            <td>${player.grade}</td>
-            <td>${player.points}</td>
+            <td class="table-text">${rank}</td>
+            <td class="table-text">${devIcon}${earlyIcon}${player.name}</td>
+            <td class="table-text">${player.grade}</td>
+            <td class="table-text">${player.points}</td>
          </tr>
       `;
       rank++;
