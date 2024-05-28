@@ -12,7 +12,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
     width: 100vw;
 
 }
@@ -22,13 +21,15 @@ body {
     padding: 0;
     background-color: #222222;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 table, th, td {
     border: solid 2px #8a8a8a;
     border-collapse: collapse;
     padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .table-text {
@@ -61,12 +62,12 @@ table, th, td {
 }
 
 .bird-logo {
-    width: 30px;
+    width: 20px;
     padding: 0;
     margin: 0;
 }
 .dev-logo {
-    width: 30px;
+    width: 20px;
     padding: 0;
     margin: 0;
 }
