@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     height: 500px;
+    width: 100%;
 
 }
 
@@ -41,4 +42,10 @@ table, th, td {
     height: 50px;
     width: 50px;
     background-color: #c9970f;
+}
+
+.dev-image {
+    width: 80%;
+    padding: 0;
+    margin: 0;
 }
