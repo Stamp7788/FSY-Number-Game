@@ -11,10 +11,10 @@
     {
         "name": "Hallie Day",
         "earlyP": true,
-        "developer": false,
+        "developer": true,
         "grade": "Grad",
         "donator": false,
-        "points": "2",
+        "points": "85",
         "phoneNumber": "7016300768"
     },
     {
@@ -79,7 +79,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "43",
+        "points": "6535.8",
         "phoneNumber": "6155888195"
     },
     {
@@ -97,7 +97,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "0",
+        "points": "3154",
         "phoneNumber": "8018503952"
     },
     {
@@ -115,7 +115,7 @@
         "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "0",
+        "points": "7773",
         "phoneNumber": "9313160975"
     },
     {
@@ -133,7 +133,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "1111111",
+        "points": "444",
         "phoneNumber": "4356199418"
     },
     {
@@ -151,7 +151,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "0",
+        "points": "683",
         "phoneNumber": "9312393648"
     }
 ]
