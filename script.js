@@ -87,8 +87,3 @@ fetch("players.json")
 });
 
 
-function activateDropdownMenu() {
-   dropdownMenu.addEventListener('click', ()=> {
-
-   });
-}
