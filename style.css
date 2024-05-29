@@ -108,4 +108,9 @@ table, th, td {
     color: #ffffff;
     justify-self: center;
     margin: 0px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }

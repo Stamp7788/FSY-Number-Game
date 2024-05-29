@@ -8,3 +8,13 @@ document.getElementById("dropdownMenuButton").addEventListener('click', ()=> {
         menuOpen = false;
     };
 });
+
+document.getElementById("closeOption").addEventListener('click', ()=> {
+    if (menuOpen == false) {
+        document.getElementById("dropdownMenu").style.zIndex = 35;
+        menuOpen = true;
+    } else if (menuOpen == true) {
+        document.getElementById("dropdownMenu").style.zIndex = -1;
+        menuOpen = false;
+    };
+});
