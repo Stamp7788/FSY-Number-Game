@@ -5,16 +5,16 @@
        "developer": true,
        "grade": "Grad",
        "donator": false,
-       "points": "2",
+       "points": "0",
        "phoneNumber": "9312607492"
     },
     {
         "name": "Hallie Day",
         "earlyP": true,
-        "developer": true,
+        "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "85",
+        "points": "0",
         "phoneNumber": "7016300768"
     },
     {
@@ -32,7 +32,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "4",
+        "points": "0",
         "phoneNumber": "3606707423"
     },
     {
@@ -41,7 +41,7 @@
         "developer": true,
         "grade": "12th",
         "donator": false,
-        "points": "57",
+        "points": "0",
         "phoneNumber": "9312843686",
         "menace": true
     },
@@ -51,7 +51,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "18",
+        "points": "0",
         "phoneNumber": "9312391694"
     },
     {
@@ -60,7 +60,7 @@
         "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "4",
+        "points": "0",
         "phoneNumber": "9313193388"
         
     },
@@ -70,7 +70,7 @@
         "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "76",
+        "points": "0",
         "phoneNumber": "4803269550"
     },
     {
@@ -79,7 +79,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "6535.8",
+        "points": "0",
         "phoneNumber": "6155888195"
     },
     {
@@ -88,7 +88,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "9",
+        "points": "0",
         "phoneNumber": "9168505972"
     },
     {
@@ -97,7 +97,7 @@
         "developer": false,
         "grade": "12th",
         "donator": false,
-        "points": "3154",
+        "points": "0",
         "phoneNumber": "8018503952"
     },
     {
@@ -115,7 +115,7 @@
         "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "773",
+        "points": "0",
         "phoneNumber": "9313160975"
     },
     {
@@ -124,7 +124,7 @@
         "developer": false,
         "grade": "Grad",
         "donator": false,
-        "points": "-5",
+        "points": "0",
         "phoneNumber": "4356199534"
     },
     {
@@ -133,7 +133,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "444",
+        "points": "0",
         "phoneNumber": "4356199418"
     },
     {
@@ -142,7 +142,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "444",
+        "points": "0",
         "phoneNumber": "6292610619"
     },
     {
@@ -151,7 +151,7 @@
         "developer": false,
         "grade": "11th",
         "donator": false,
-        "points": "683",
+        "points": "0",
         "phoneNumber": "9312393648"
     }
 ]
