@@ -20,7 +20,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #222222;
+    background-color: #002036;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -40,8 +40,8 @@ table, th, td {
 
 #banner {
     display: flex;
-    color: #bb86fc;
-    background-color: #353535;
+    color: #002036;
+    background-color: #21737e;
     height: 15vh;
     width: 100%;
     padding: 10px;
