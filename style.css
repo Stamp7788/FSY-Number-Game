@@ -87,25 +87,25 @@ table, th, td {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    left: 10vw;
+    left: 15%;
+    right: 15%;
     z-index: -1;
-    width: 80%;
+    width: 70%;
     height: 50vh;
-    top: 30vh;
+    
     margin: 0;
     padding: 10;
     background-color: #21737e;
+    text-align: center;
     
 }
 
 .dropdownMenuOption {
-    width: 100%;
+    display: flex;
     text-align: center;
-    height: 20px;
+    padding: 36px;
     background-color: #21737e;
-    margin: 0;
-    padding: 10px;
-    transition: background-color .5s;
+    transition: background-color 0.5s;
     color: white;
 }
 
@@ -114,6 +114,8 @@ table, th, td {
 }
 
 a {
+    text-align: center;
+    width: 100%;
     text-decoration: none;
 }
 
