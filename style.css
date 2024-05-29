@@ -82,37 +82,35 @@ table, th, td {
 }
 
 #dropdownMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    justify-self: center;
+    flex-direction: column;
     left: 10vw;
     z-index: -1;
     width: 80%;
     height: 50vh;
     top: 30vh;
-    background-color: #c9970f;
     margin: 0;
-    padding: 0;
+    padding: 10;
+    background-color: #21737e;
+    
 }
 
 .dropdownMenuOption {
     width: 100%;
     text-align: center;
-    height: 25%;
-    background-color: #769e49;
+    height: 20px;
+    background-color: #21737e;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     transition: background-color .5s;
+    color: white;
 }
 
 .dropdownMenuOption:hover {
-    background-color: #21737e;
-}
-
-.standard-text {
-    color: #ffffff;
-    justify-self: center;
-    margin: 0px;
-    text-decoration: none;
+    background-color: #185159;
 }
 
 a {
