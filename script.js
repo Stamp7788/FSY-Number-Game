@@ -43,6 +43,7 @@ fetch("players.json")
          out += "";
       }
 
+      /*
       // Check for M e n a c e status
       if (player.menace == true) {
          out += `<img class="name-icon" src="wuddleFace.png" draggable="false">`;
@@ -50,6 +51,7 @@ fetch("players.json")
       else {
          out += "";
       }
+      */
 
       // Check for first place
       if (rank == 1) {
