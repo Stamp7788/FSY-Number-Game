@@ -1,0 +1,157 @@
+[
+    {
+       "name": "Gabe Olsen",
+       "earlyP": true,
+       "developer": true,
+       "grade": "Grad",
+       "donator": false,
+       "points": "0",
+       "phoneNumber": "9312607492"
+    },
+    {
+        "name": "Hallie Day",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "7016300768"
+    },
+    {
+        "name": "Tera Lewis",
+        "earlyP": false,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "4804820576"
+    },
+    {
+        "name": "Liberty Graves",
+        "earlyP": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "3606707423"
+    },
+    {
+        "name": "Jonathan Hill",
+        "earlyP": true,
+        "developer": true,
+        "grade": "12th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9312843686",
+        "menace": true
+    },
+    {
+        "name": "Tucker Smith",
+        "earlyP": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9312391694"
+    },
+    {
+        "name": "Kyla Puckett",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9313193388"
+        
+    },
+    {
+        "name": "Ryan Eppich",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "4803269550"
+    },
+    {
+        "name": "Emmerson Lee",
+        "earlyP": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "6155888195"
+    },
+    {
+        "name": "Sydney Bethards",
+        "earlyP": true,
+        "developer": false,
+        "grade": "11th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9168505972"
+    },
+    {
+        "name": "Michael Durtschi",
+        "earlyP": true,
+        "developer": false,
+        "grade": "12th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "8018503952"
+    },
+    {
+        "name": "Merik Mendenhall",
+        "earlyP": true,
+        "developer": false,
+        "grade": "11th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "6293716741"
+    },
+    {
+        "name": "Allie Reece",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9313160975"
+    },
+    {
+        "name": "Sophia Saunders",
+        "earlyP": true,
+        "developer": false,
+        "grade": "Grad",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "4356199534"
+    },
+    {
+        "name": "Mandolin Saunders",
+        "earlyP": true,
+        "developer": false,
+        "grade": "11th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "4356199418"
+    },
+    {
+        "name": "Joseph Salazar",
+        "earlyP": true,
+        "developer": false,
+        "grade": "11th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "6292610619"
+    },
+    {
+        "name": "Savanna Olsen",
+        "earlyP": true,
+        "developer": false,
+        "grade": "11th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9312393648"
+    }
+]
