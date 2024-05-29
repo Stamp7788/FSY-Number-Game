@@ -82,40 +82,41 @@ table, th, td {
 }
 
 #dropdownMenu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
-    flex-direction: column;
-    left: 15%;
-    right: 15%;
+    justify-self: center;
+    left: 10vw;
     z-index: -1;
-    width: 70%;
+    width: 80%;
     height: 50vh;
-    
-    margin: 0;
-    padding: 10;
+    top: 30vh;
     background-color: #21737e;
-    text-align: center;
-    
+    margin: 0;
+    padding: 0;
 }
 
 .dropdownMenuOption {
-    display: flex;
+    width: 100%;
     text-align: center;
-    padding: 36px;
+    height: 25%;
     background-color: #21737e;
-    transition: background-color 0.5s;
-    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background-color .5s;
 }
 
 .dropdownMenuOption:hover {
-    background-color: #185159;
+    background-color: #19545c;
+}
+
+.standard-text {
+    color: #ffffff;
+    justify-self: center;
+    margin: 0px;
+    text-decoration: none;
 }
 
 a {
-    text-align: center;
-    width: 100%;
+    color: white;
     text-decoration: none;
 }
 
