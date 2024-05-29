@@ -11,8 +11,18 @@ fetch("players.json")
 .then(function(players){
    let out = "";
    let rank = 1;
+   let sortedPlayers = players.slice().sort((a,b) => {
+      if (Number(a.points) < Number(b.points)) {
+         return 1;
+      } else if  (Number(a.points) > Number(b.points)) {
+         return -1;
+      } else {
+         return 0;
+      }
+   
+   });
 
-   for(let player of players){
+   for (let player of sortedPlayers){
 
       out += `<tr><td class="table-text">${rank}</td><td class="table-text">`;
 
