@@ -37,7 +37,7 @@ fetch("players.json")
 
       // Check for Developer status
       if (player.developer == true) {
-         out += `<img class="name-icon" src="TarynEnraged.png" draggable="false">`;
+         out += `<img class="name-icon" src="wizard.jpg" draggable="false">`;
       }
       else {
          out += "";
