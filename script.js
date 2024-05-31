@@ -29,7 +29,7 @@ fetch("players.json")
 
       // Check for Early Participant status
       if (player.earlyP == true) {
-         out += `<img class="name-icon" src="birdLogo.png" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/birdLogo.png" draggable="false">`;
       }
       else {
          out += "";
@@ -37,7 +37,7 @@ fetch("players.json")
 
       // Check for Developer status
       if (player.developer == true) {
-         out += `<img class="name-icon" src="wizard.jpg" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/wizard.jpg" draggable="false">`;
       }
       else {
          out += "";
@@ -46,7 +46,7 @@ fetch("players.json")
       /*
       // Check for M e n a c e status
       if (player.menace == true) {
-         out += `<img class="name-icon" src="wuddleFace.png" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/wuddleFace.png" draggable="false">`;
       }
       else {
          out += "";
@@ -55,7 +55,7 @@ fetch("players.json")
 
       // Check for first place
       if (rank == 1) {
-         out += `<img class="name-icon" src="goldMedal.png" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/goldMedal.png" draggable="false">`;
       }
       else {
          out += "";
@@ -63,7 +63,7 @@ fetch("players.json")
 
       // Check for second place
       if (rank == 2) {
-         out += `<img class="name-icon" src="silverMedal.png" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/silverMedal.png" draggable="false">`;
       }
       else {
          out += "";
@@ -71,7 +71,7 @@ fetch("players.json")
 
       // Check for third place
       if (rank == 3) {
-         out += `<img class="name-icon" src="bronzeMedal.png" draggable="false">`;
+         out += `<img class="name-icon" src="Assets/bronzeMedal.png" draggable="false">`;
       }
       else {
          out += "";
