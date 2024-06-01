@@ -136,3 +136,8 @@ a {
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
+.hallie-venmo-link {
+    text-decoration: underline;
+    color: #53748f;
+}
