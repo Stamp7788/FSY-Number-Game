@@ -40,7 +40,7 @@ table, th, td {
 }
 
 #banner {
-    display: flex;
+    display: inline-flex;
     color: #012731;
     background-color: #21737e;
     height: 15vh;
@@ -53,6 +53,16 @@ table, th, td {
 
 #dropdownMenuButton {
     position: relative;
+    display: inline;
+    left: 2vw;
+    height: 50px;
+    width: 50px;
+    background-color: #c9970f;
+    top: 2vw;
+}
+
+#dropdownMenuButtonDevPage {
+    position: absolute;
     display: inline;
     left: 2vw;
     height: 50px;
