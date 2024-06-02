@@ -57,8 +57,9 @@ table, th, td {
     left: 2vw;
     height: 50px;
     width: 50px;
-    background-color: #c9970f;
     top: 2vw;
+    font-size: 2.3em;
+    color: #c9970f;
 }
 
 #dropdownMenuButtonDevPage {
@@ -105,13 +106,16 @@ table, th, td {
 }
 
 .dropdownMenuOption {
+    display: flex;
     width: 100%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     height: 25%;
     background-color: #21737e;
     margin: 0;
     padding: 0;
     transition: background-color .5s;
+    padding: 10px;
 }
 
 .dropdownMenuOption:hover {
