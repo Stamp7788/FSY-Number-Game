@@ -19,7 +19,7 @@
     },
     {
         "name": "Tera Lewis",
-        "earlyP": false,
+        "earlyP": true,
         "developer": false,
         "grade": "Grad",
         "donator": false,
