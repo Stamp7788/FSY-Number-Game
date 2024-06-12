@@ -162,5 +162,14 @@
         "donator": false,
         "points": "0",
         "phoneNumber": "4807085347"
+    },
+    {
+        "name": "Gabe Dean",
+        "earlyP": false,
+        "developer": false,
+        "grade": "10th",
+        "donator": false,
+        "points": "0",
+        "phoneNumber": "9312675284"
     }
 ]
