@@ -119,6 +119,7 @@ table, th, td {
     padding: 0;
     transition: background-color .5s;
     padding: 10px;
+    border: 1px solid #1f555c;
 }
 
 .dropdownMenuOption:hover {
